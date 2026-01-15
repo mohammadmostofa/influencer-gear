@@ -3,7 +3,15 @@
 /* mobile device */
 
 @media screen and (max-width :576px) {
-  
+
+
+  /* section_margin class */
+  .section_mr{
+    margin: 2rem auto;
+}
+
+
+
   /* navBar */
   .nav_Bar {
      margin: 2rem auto; 
@@ -15,6 +23,34 @@
   margin-right:1rem;
 }
 
+/* .hero_section */
+
+.hero_section{
+  flex-wrap: wrap-reverse;
+}
+
+
+.hero_content{
+  text-align: center;
+  align-items: center;
+  padding: 0px 2rem;
+}
+
+.hero_content h2{
+  font-size: 2rem;
+  margin: 1rem 0rem;
+  line-height: 3rem;
+ 
+ 
+ }
+
+ .hero_content p{
+  font-size: 1rem;
+  margin-bottom: 1rem;
+  
+ }
+
+
 
 
 }
@@ -24,10 +60,28 @@
 
 @media screen and (max-width:992px) and (min-width:577px) {
 
+/* section_mr */
+
+.section_mr{
+
+  margin: 2rem 2rem;
+}
+
   .nav_Bar{
     margin: 1.5rem 0rem;
     flex-direction: column;
     justify-content: space-between;
+  }
+
+  /* hero_content */
+
+  .hero_content{
+    max-width: 45%;
+  }
+
+  .hero_content h2{
+    font-size: 2.2rem;
+
   }
 
   
@@ -38,10 +92,21 @@
 
 @media screen and (max-width :1140px) and (min-width:993px) {
 
+  /* section_mr */
+
+.section_mr{
+
+  margin: 2rem 2rem;
+}
+
   .nav_Bar{
     margin: 2rem 3rem;
   }
+
+
+  .hero_content{
+    max-width: 46%;
+  }
+
   
-} {
-  
-}
+} 

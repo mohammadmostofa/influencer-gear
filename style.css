@@ -20,11 +20,33 @@
 
  }
 
+
+ /* shared used */
+
+ .section_mr{
+    margin: 2rem 7.5rem;
+ }
+
+ .btn{
+
+  background-color: #E02C6D;
+  color: white;
+  padding: 1rem 1.4rem;
+  margin: 0 auto;
+  border-radius: 2.5rem;
+  border:none;
+ }
+
+ .btn:hover{
+  background-color: #bf0e4f;
+  transition:.3s ease-in-out;
+ }
+
+
  /* nav_Bar style */
 
  .nav_Bar{
 
-  margin: 2rem 7.5rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -57,4 +79,65 @@
   text-decoration: none;
   color: var(--primary-color);
   font-weight: 500;
+ }
+
+
+ /* hero_section */
+
+ .hero_section{
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+  margin-top: 3rem;
+ }
+
+ /* hero_content */
+.hero_content {
+
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   max-width: 34.37rem;
+
+ }
+
+ .hero_content h2{
+  font-size: 3.25rem;
+  margin: 1rem 0rem;
+  line-height: 4rem;
+ }
+
+ .hero_content p{
+  font-size: 1rem;
+  margin-bottom: 1rem;
+ }
+
+
+
+ /* hero_content btn */
+
+.btn_title{
+  font-size: 1.2rem;
+  text-align: center;
+  margin-right: .4rem;
+  font-weight: bold;
+}
+
+
+ .right_icon{
+  margin-left: .2rem;
+  text-align: center;
+ font-weight: 200;
+ margin: 0 auto;
+ 
+ }
+
+
+ .hero_img{
+  background-image: url(/assets/images/Circle\ design.svg);
+  display: flex;
+ }
+
+ .hero_img img{
+  width: 100%;
  }
