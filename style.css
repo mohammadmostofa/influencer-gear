@@ -245,4 +245,24 @@
 }
 
 
+/*  */
+
+.see_more_btn{
+  margin: 4rem 0rem;
+  display: flex;
+  justify-content: end;
+  padding: 0;
+}
+
+
+.btn_more{
+ 
+  color: #E02C6D;
+  padding: .9rem 1.4rem;
+  border: none;
+  background-color: #fff;
+  margin: 0;
+   
+ }
+
 

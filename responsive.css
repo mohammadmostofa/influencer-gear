@@ -96,6 +96,14 @@
 
 }
 
+/*  */
+
+.see_more_btn{
+  margin: 1rem 0rem;
+  display: flex;
+  justify-content: start;
+}
+
 }
 
 
@@ -150,8 +158,13 @@
   gap: 3rem;
 }
 
+/*  */
 
-
+.see_more_btn{
+  margin: 2rem 0rem;
+  display: flex;
+  justify-content: start;
+}
 
   
 }
