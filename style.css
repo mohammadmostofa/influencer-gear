@@ -23,8 +23,15 @@
 
  /* shared used */
 
+
+ /* margin left and right */
  .section_mr{
     margin: 2rem 7.5rem;
+ }
+
+ /* section vertical and horizontal margin */
+ .section_my{
+  margin: 8rem 7.5rem ;
  }
 
  .btn{
@@ -167,6 +174,75 @@
   width: 100%;
 }
 
+
+/* card_container */
+
+
+ .card_title{
+  font-size: 2.2rem;
+  font-weight: bold;color: black;
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.card_container{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap: 3rem;
+}
+
+
+/* card */
+
+.card{
+  border: 1px solid rgb(255, 255, 255);
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  border-radius: 5px ;
+  box-shadow:0px 0px 3px #e8dcdc;
+ 
+}
+
+.card img{
+  width: 100%;
+  border-radius: 5px;
+}
+
+.card h4 {
+  font-size: 1.2rem;
+  margin-top: 2rem;
+}
+
+.card h5{
+  font-size: 1rem;
+  margin-bottom: .5rem;
+  font-weight: 400;
+}
+
+.card h6{
+  margin-bottom: .5rem;
+  font-size: 1rem;
+  font-weight: bold;
+  display: flex;
+  gap: 0rem 1rem;
+
+}
+
+
+.start_rating .s_icon{
+
+  font-size: 1rem;
+  color: #ff8c00;
+  
+
+}
+
+.card p{
+  font-size: .9rem;
+  font-weight: 500;
+
+}
 
 
 
