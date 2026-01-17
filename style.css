@@ -43,6 +43,8 @@
  }
 
 
+
+
  /* nav_Bar style */
 
  .nav_Bar{
@@ -67,12 +69,13 @@
  .nav_list{
 
   display: flex;
-
+  justify-content: right;
+ column-gap: 1.5rem;
  }
 
  .nav_list li{
   list-style: none;
-  margin-right: 2rem;
+  
  }
 
  .nav_list a{
@@ -141,3 +144,29 @@
  .hero_img img{
   width: 100%;
  }
+
+
+ /* brand_section style */
+.brand{
+  border: 1px solid rgb(212, 212, 212);
+  padding: 2rem 1rem;
+  display: flex;
+  justify-content: center;
+  
+}
+
+.brand_images{
+  display: grid;
+  grid-template-columns: repeat(7 ,1fr);
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem 5rem;
+}
+ 
+.brand_images img{
+  width: 100%;
+}
+
+
+
+
