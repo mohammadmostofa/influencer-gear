@@ -262,7 +262,66 @@
   border: none;
   background-color: #fff;
   margin: 0;
+  font-weight: 400;
    
  }
 
+ .btn_title{
+  font-weight: normal;
+  font-size: 1rem;
+ }
+
+
+ /* feature_container */
+
+ .feature_container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0rem 6rem;
+ }
+
+ 
+
+
+ .feature_img{
+  padding: 1rem;
+ }
+
+ .feature_img img{
+   width: 100%;
+   
+ }
+
+
+
+ .feature_content{
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  gap: 1rem 0rem;
+  padding: 2rem 0rem;
+ }
+
+ .feature_content h3{
+  font-size: 2rem;
+  color: black;
+  font-weight: bold;
+ }
+
+ .feature_content p{
+  font-size: 1rem;
+  font-weight: normal;
+ }
+
+
+.btn_join{
+
+  background-color: #E02C6D;
+  color: white;
+  padding: 1rem 2rem;
+  margin: 0 auto;
+  border:none;
+
+ }
 
